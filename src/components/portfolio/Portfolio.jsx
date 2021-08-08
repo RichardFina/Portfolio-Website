@@ -9,29 +9,35 @@ export default function Portfolio() {
         {
           id: "1",
           icon: "./assets/mobile.png",
-          title: "Web Design",
+          title: "CryptoTracker App",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            "Cryptocurrecncy application that tracks price metrics with CoinMarketCap API integration. Designed for Android and written in Java.",
+          projects:
+            "CryptoTracker",
           img:
-            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+            "https://camo.githubusercontent.com/43ea9c7e20efb763ccf9ddb7ec76ccf7f649dcffe11c8e4ff86dd16ee0929170/68747470733a2f2f692e696d6775722e636f6d2f316431427073382e706e67",
         },
         {
           id: "2",
-          icon: "./assets/globe.png",
-          title: "Mobile Application",
+          icon: "./assets/game.png",
+          title: "Brink",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "A sidescroller game with inspiration from retro platformers such as Metal Slug. Made with Unity and written in C#.",
+          projects:
+            "CryptoTracker",
           img:
-            "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+            "https://i.imgur.com/k8iEGpB.png",
         },
         {
           id: "3",
-          icon: "./assets/writing.png",
-          title: "Branding",
+          icon: "./assets/globe.png",
+          title: "richardfina.dev",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "React application that integrates various libraries and frameworks to showcase technical skills and understanding of web applications and supportive technologies.",
+          projects:
+            "CryptoTracker",
           img:
-            "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+            "https://i.imgur.com/sJNDtXH.png",
         },
     ];
 
@@ -57,12 +63,15 @@ export default function Portfolio() {
                                 <p>
                                     {d.desc}
                                 </p>
-                                <span>Projects</span>
+                                {/* <span>Projects</span>
+                                <p>
+                                    {d.projects}
+                                </p> */}
                             </div>
                         </div>
                         <div className="right">
                         <img
-                          src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                          src={d.img}
                           alt=""
                         />
                         </div>

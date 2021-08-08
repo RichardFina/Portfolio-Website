@@ -78,7 +78,7 @@
               width: 40px;
               height: 40px;
               border-radius: 50%;
-              background-color: coral;
+              background-color: rgb(80, 214, 255);
               display: flex;
               align-items: center;
               justify-content: center;
@@ -101,12 +101,13 @@
               font-size: 20px;
 
               @include mobile {
-                font-size: 13px;
+                font-size: 11px;
               }
             }
 
             p {
               font-size: 13px;
+              // margin: 3px 0 7px 0;
 
               @include mobile {
                 display: none;
@@ -118,6 +119,14 @@
               font-weight: 600;
               text-decoration: underline;
               cursor: pointer;
+
+              a {
+                color: white;
+
+                &:visited {
+                  color: white;
+                }
+              }
             }
           }
         }
@@ -133,7 +142,8 @@
 
           img {
             width: 400px;
-            transform: rotate(-10deg);
+            margin-left: 75px;
+            transform: rotate(0deg);
           }
         }
       }

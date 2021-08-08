@@ -45,6 +45,25 @@
         span {
           font-size: 15px;
           font-weight: 600;
+
+          a {
+            color: white;
+            text-decoration: none;
+
+            &:visited {
+              color: white;
+            }
+
+            &:hover {
+              text-decoration: underline;
+              cursor: pointer;
+            }
+
+            &:active {
+              color: white;
+              text-decoration: underline;
+            }
+          }
         }
       }
     }

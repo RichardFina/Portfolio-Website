@@ -1,5 +1,6 @@
 import "./navbar.scss"
-import {Person, Mail} from "@material-ui/icons"
+import {Mail} from "@material-ui/icons"
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
     return (
@@ -8,12 +9,12 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
                 <div className="left">
                     <a href="#introduction" className="logo">&lt;/design&gt;</a>
                     <div className="itemContainer">
-                        <Person className="icon"/>
-                        <span>805 410 2807</span>
+                        <LinkedInIcon className="icon"/>
+                        <span><a href="https://www.linkedin.com/in/fina-508209/" target="_blank" rel="noreferrer">in/fina-508209</a></span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon"/>
-                        <span>pyth0n@tuta.io</span>
+                        <span><a href="#contact">pyth0n@tuta.io</a></span>
                     </div>
                     
                 </div>
