@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://richardfina.github.io/Portfolio-Website/",
+    "homepage": "https://richardfina.github.io/Portfolio-Website/"
   },
   "eslintConfig": {
     "extends": [
