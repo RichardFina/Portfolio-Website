@@ -19,7 +19,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
                     </div>
                     <div className="itemContainer">
                         <GitHubIcon className="icon"/>
-                        <span><a href="https://github.com/RichardFina">GitHub</a></span>
+                        <span><a href="https://github.com/RichardFina"  target="_blank" rel="noreferrer">GitHub</a></span>
                     </div>
                     
                 </div>
