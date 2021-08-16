@@ -1,6 +1,7 @@
 import "./navbar.scss"
 import {Mail} from "@material-ui/icons"
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
     return (
@@ -15,6 +16,10 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
                     <div className="itemContainer">
                         <Mail className="icon"/>
                         <span><a href="#contact">pyth0n@tuta.io</a></span>
+                    </div>
+                    <div className="itemContainer">
+                        <GitHubIcon className="icon"/>
+                        <span><a href="https://github.com/RichardFina">GitHub</a></span>
                     </div>
                     
                 </div>
